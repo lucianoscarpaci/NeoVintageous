@@ -71,7 +71,7 @@
     {"keys": ["tab"],       "command": "nv_cmdline_feed_key", "args": {"key": "<tab>"},    "context": [{"key": "setting._nv_ex_mode"}]},
     {"keys": ["up"],        "command": "nv_cmdline_feed_key", "args": {"key": "<up>"},     "context": [{"key": "setting._nv_ex_mode"}]},
 
-    {"keys": ["escape"],    "command": "nv_feed_key", "args": {"key": "<esc>"},        "context": [{"key": "nv_command_or_insert"},  {"key": "nv_handle_key", "operand": "<Esc>"}]},
+    {"keys": ["caps_lock"],    "command": "nv_feed_key", "args": {"key": "<esc>"},        "context": [{"key": "nv_command_or_insert"},  {"key": "nv_handle_key", "operand": "<Esc>"}]},
 
     {"keys": ["backspace"], "command": "nv_feed_key", "args": {"key": "<bs>"},         "context": [{"key": "vi_command_mode_aware"}, {"key": "nv_handle_key", "operand": "<BS>"}]},
     {"keys": ["delete"],    "command": "nv_feed_key", "args": {"key": "<del>"},        "context": [{"key": "vi_command_mode_aware"}, {"key": "nv_handle_key", "operand": "<Del>"}]},
